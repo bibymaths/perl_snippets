@@ -27,7 +27,8 @@ This repository contains a collection of scripts designed to solve common proble
 | `motif_identification_profile.pl`| Identifies motifs using profile matrices.    |
 | `longest_common_subsequence.pl`  | Finds the longest common subsequence between strings. |
 | `dna_fragment_assembly.pl`       | Assembles DNA fragments into sequences.      | 
-| `euclid_pdb.pl`       | Calculate and print the distances between atoms.      |
+| `euclid_pdb.pl`       | Calculate and print the distances between atoms.      | 
+| `dna_mutation.pl`       | Randomized mutation of genomic sequences.      |
 
 ---
 
@@ -88,7 +89,10 @@ Finds the longest subsequence common to two given sequences.
 Reconstructs DNA sequences from smaller fragments using sequence overlaps. 
 
 ### `euclid_pdb.pl`
-Calculate and print the distances between atoms with the maximum distance for each atom in the first set relative to atoms in the second set.
+Calculate and print the distances between atoms with the maximum distance for each atom in the first set relative to atoms in the second set. 
+
+### `dna_mutation.pl`
+Reads a DNA sequence from a file, mutates it at random positions to create successive variations, and prints the original sequence, the first mutation, and 10 successive mutated sequences.
 
 ---
 
