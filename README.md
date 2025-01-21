@@ -26,7 +26,8 @@ This repository contains a collection of scripts designed to solve common proble
 | `edit_distance_calculator.pl`    | Computes edit distance between strings.      |
 | `motif_identification_profile.pl`| Identifies motifs using profile matrices.    |
 | `longest_common_subsequence.pl`  | Finds the longest common subsequence between strings. |
-| `dna_fragment_assembly.pl`       | Assembles DNA fragments into sequences.      |
+| `dna_fragment_assembly.pl`       | Assembles DNA fragments into sequences.      | 
+| `euclid_pdb.pl`       | Calculate and print the distances between atoms.      |
 
 ---
 
@@ -84,7 +85,10 @@ Uses profile matrices to identify motifs in DNA sequences.
 Finds the longest subsequence common to two given sequences.
 
 ### `dna_fragment_assembly.pl`
-Reconstructs DNA sequences from smaller fragments using sequence overlaps.
+Reconstructs DNA sequences from smaller fragments using sequence overlaps. 
+
+### `euclid_pdb.pl`
+Calculate and print the distances between atoms with the maximum distance for each atom in the first set relative to atoms in the second set.
 
 ---
 
